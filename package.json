@@ -1,0 +1,13 @@
+{
+"name": "insightpulse-mcp",
+"version": "1.0.0",
+"description": "AI Marketing Diagnostics MCP Server",
+"main": "mcp-server.ts",
+"scripts": {
+"start": "ts-node mcp-server.ts"
+},
+"dependencies": {
+"ts-node": "^10.9.1",
+"typescript": "^5.3.3"
+}
+}
