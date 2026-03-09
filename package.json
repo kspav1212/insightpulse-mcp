@@ -1,13 +1,19 @@
 {
-"name": "insightpulse-mcp",
-"version": "1.0.0",
-"description": "AI Marketing Diagnostics MCP Server",
-"main": "mcp-server.ts",
-"scripts": {
-"start": "ts-node mcp-server.ts"
-},
-"dependencies": {
-"ts-node": "^10.9.1",
-"typescript": "^5.3.3"
-}
+  "name": "insightpulse-mcp",
+  "version": "1.0.0",
+  "description": "InsightPulse AI Marketing Diagnostics MCP Server",
+  "type": "module",
+  "main": "mcp-server.ts",
+  "scripts": {
+    "start": "tsx mcp-server.ts",
+    "dev": "tsx watch mcp-server.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.27.1",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
 }
