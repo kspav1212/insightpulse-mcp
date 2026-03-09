@@ -5,6 +5,7 @@
   "type": "module",
   "main": "mcp-server.ts",
   "scripts": {
+    "build": "echo \"No build step required\"",
     "start": "tsx mcp-server.ts",
     "dev": "tsx watch mcp-server.ts"
   },
